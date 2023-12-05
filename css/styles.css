@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0077b6;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.titulo-inicio {
+    font-size: 36px;
+    color: #fff;
+}
+
+.menu-navegacion ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-navegacion li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-navegacion a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.seccion-noticias {
+    text-align: center;
+}
+
+.noticia-grande {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.noticia-grande img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.noticia-grande-texto {
+    padding: 20px;
+}
+
+.noticias-pequeñas {
+    display: flex;
+}
+
+.noticia-pequeña {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.noticia-pequeña img {
+    max-width: 100%;
+}
+
+.footer {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.seccion-tarifas {
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #0077b6;
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid #0077b6;
+    padding: 10px;
+}
+
+table th {
+    background-color: #0077b6;
+    color: #fff;
+}
+
+#footer-fijo {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.seccion-profesores {
+    text-align: center;
+}
+
+.profesores {
+    display: flex;
+    justify-content: center;
+}
+
+.profesor {
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    max-width: 300px;
+
+}
+
+.profesor img {
+    max-width: 100%;
+    height: auto;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+    font-weight: 800;
+    background-color: aqua;
+}
+
+.seccion-registro{
+    text-align: center;
+}
+
+.seccion-reserva{
+    text-align: center;
+    
+}
+
+.horario {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.no-disponible {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
+
+.seccion-galeria {
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+.galeria-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 100%;
+}
+
+.galeria-imagen img {
+    width: 500px; 
+    height: 400px; 
+    object-fit: cover; 
+}
+
+.flecha {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.flecha:hover {
+    background-color: #005691;
+}
+
+#anterior {
+    left: 10%;
+}
+
+#siguiente {
+    right: 10%;
+}
